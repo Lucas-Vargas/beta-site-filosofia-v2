@@ -98,7 +98,6 @@ Post-its
 */
 
 .postit{
-    background-color: rgba(73, 255, 17, 0.2);
     height: 70vh;
     width: 100vw;
 }
@@ -169,6 +168,7 @@ Post-its
 
 
 #postit3{
+    z-index: 2;
     left: 54vw;
     top: -20vh;
     transition: 0.5ms;
@@ -204,7 +204,8 @@ Post-its
 
 
 #postit4{
-    left: 74vw;
+    z-index: 1;
+    left: 75vw;
     transition: 0.5ms;
     position: relative;
     display: flex;

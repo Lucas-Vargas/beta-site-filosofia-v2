@@ -25,47 +25,48 @@ background-size: cover;
 }
 .sombrancelhas{
     background-color: rgb(0, 0, 0);
-    height: 15px;
-    width: 50px;
+    height: 13px;
+    width: 40px;
     border-radius: 50% 50% 0 0;
     position: relative;
     z-index: 1;
-    left: 295px;
-    top: 80px;
+    left: 233px;
+    top: 55px;
 }
 .sombrancelhas2{
     background-color: rgb(0, 0, 0);
-    height: 15px;
-    width: 50px;
+    height: 13px;
+    width: 40px;
     border-radius: 50% 50% 0 0;
     position: relative;
     z-index: 3;
-    left: 407px;
-    top: 95px;
+    left: 324px;
+    top: 65px;
 }
 
 .div-marx .eyes {
 position: relative;
-width: 50px;
-height: 50px;
-top: 100px;
-left: 242px;
+width: 40px;
+height: 40px;
+top: 70px;
+left: 188px;
 background-color: #fff;
 margin: 0 5px;
 border-radius: 50%;
 box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2), inset 0 0 5px #f5af19,
-  inset 0 0 10px #f5af19;
+inset 0 0 10px #f5af19;
 
 }
 
 .eyes .eyeballs{
-    height: 50px;
+    height: 35px;
     position: absolute;
-    left: -10px;
+    left: -5px;
+    top: 3px;
 }
 
 .marx{
-    height: 400px;
+    height: 300px;
     z-index: -1;
 }
 .div-marx{
@@ -81,8 +82,8 @@ box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2), inset 0 0 5px #f5af19,
 }
 .carl-texto{
     position: absolute;
-    left: 80px;
-    top: 150px;
+    left: 40px;
+    top: 100px;
     font-size: 60px;
     color: red;
     font-family:  'Times New Roman', sans-serif;
@@ -105,8 +106,8 @@ Post-its
     position: absolute;
     display: flex;
     justify-content: center;
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 150px;
     background-color: #f5af19;
     margin-top: 30vh;
     margin-left: 3vw;
@@ -117,7 +118,7 @@ Post-its
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 55px;
+    margin-top: 27px;
     border: 2px solid;
     border-left: none;
     border-right: none;
@@ -125,7 +126,7 @@ Post-its
 }
 
 #postit1 h2{
-    margin-top: 150px;
+    margin-top: 90px;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
@@ -138,8 +139,8 @@ Post-its
     position: absolute;
     display: flex;
     justify-content: center;
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 150px;
     background-color: #f5af19;
     margin-top: 30vh;
     margin-left: 3vw;
@@ -150,7 +151,7 @@ Post-its
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 55px;
+    margin-top: 27px;
     border: 2px solid;
     border-left: none;
     border-right: none;
@@ -158,7 +159,7 @@ Post-its
 }
 
 #postit2 h2{
-    margin-top: 150px;
+    margin-top: 90px;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
@@ -174,8 +175,8 @@ Post-its
     position: absolute;
     display: flex;
     justify-content: center;
-    height: 150px;
-    width: 200px;
+        height: 100px;
+    width: 150px;
     background-color: #f5af19;
     margin-top: 30vh;
     margin-left: 3vw;
@@ -186,7 +187,7 @@ Post-its
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 55px;
+    margin-top: 27px;
     border: 2px solid;
     border-left: none;
     border-right: none;
@@ -194,7 +195,7 @@ Post-its
 }
 
 #postit3 h2{
-    margin-top: 150px;
+    margin-top: 90px;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
@@ -209,8 +210,8 @@ Post-its
     position: relative;
     display: flex;
     justify-content: center;
-    height: 150px;
-    width: 200px;
+    height: 100px;
+    width: 150px;
     background-color: #f5af19;
     margin-top: 30vh;
     margin-left: 3vw;
@@ -221,7 +222,7 @@ Post-its
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 55px;
+    margin-top: 27px;
     border: 2px solid;
     border-left: none;
     border-right: none;
@@ -229,7 +230,7 @@ Post-its
 }
 
 #postit4 h2{
-    margin-top: 150px;
+    margin-top: 90px;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;

@@ -23,24 +23,25 @@ background-size: cover;
     top: 50%;
 }
 .btnIr{
-    transition: 1s;
-    height: 10vh;
-    width: 5vw;
+    transition: 0.5s;
+    height: 15vh;
+    width: 6.6vw;
     background-color: aqua;
     position: absolute;
-    right: 0;
-    top: 40%;
+    right: 2vw;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 900;
-    border-radius: 10%;
 }
 .btnIr:hover{
     height: 70vh;
-    top: 10vh;
     transition: 1s;
     cursor: help;
+}
+.btnIr:hover img{
+    display: none;
 }
 .btnIr p{
     transition: 1.5s;
@@ -78,7 +79,6 @@ background-size: cover;
     height: 100vh;
     width: 100vw;
     top: 0;
-    background-color: #f5af19;
     transition: 1s;
 }
 .btnIr:focus{
@@ -86,7 +86,18 @@ background-size: cover;
     width: 0;
     right: 0;
 }
-
+.btnIr:focus img{
+    height: 0;
+    width: 0;
+    right: 0;
+}
+.btnIr img{
+    overflow: hidden;
+    position: absolute;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
 .container {
     margin: 0;
     padding: 0;
@@ -336,5 +347,258 @@ Página 2
 
 .pag2{
     position: absolute;
-    
+    overflow: hidden;
+    background-image: url(./back2.jpg);
+    background-size: cover;
+}
+
+.container2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.sombrancelhas{
+    background-color: rgb(0, 0, 0);
+    height: 15px;
+    width: 50px;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    z-index: 1;
+    left: 295px;
+    top: 80px;
+}
+.sombrancelhas2{
+    background-color: rgb(0, 0, 0);
+    height: 15px;
+    width: 50px;
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    z-index: 3;
+    left: 407px;
+    top: 95px;
+}
+
+.div-marx2 .eyes {
+position: relative;
+width: 50px;
+height: 50px;
+top: 170px;
+left: 330px;
+background-color: #fff;
+margin: 0 5px;
+border-radius: 50%;
+box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2), inset 0 0 5px #f5af19,
+  inset 0 0 10px #f5af19;
+
+}
+
+.pag2 .eyes .eyeballs{
+    height: 20px;
+    position: absolute;
+    top: 15px;
+    left: 3px;
+    transform: rotate(270deg);
+}
+.pag2 .eyes .eyeballs2{
+    height: 20px;
+    position: absolute;
+    top: 15px;
+}
+
+.marx{
+    height: 400px;
+    z-index: -1;
+}
+.div-marx2{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%);
+    left: 45vw;
+}
+.arm{
+    height: 100px;
+    width: 100px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 150px;
+}
+.arm img{
+    position: absolute;
+    height: 40px;
+    top: 30px;
+    right: 50px;
+     transform: rotate(180deg);
+}
+
+/*
+
+Post-its
+
+*/
+
+.postit2{
+    height: 70vh;
+    width: 100vw;
+}
+#postit1{
+    transition: 0.5ms;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 17vw;
+    background-color: #f5af19;
+    margin-top: 30vh;
+    margin-left: 3vw;
+    transition: 0.5s;
+    border: 3px solid;
+}
+#postit1 .postit-txt{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 7vh;
+    border: 2px solid;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+}
+
+#postit1 h3{
+    margin-top: 20vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: 0.7ms;
+}
+#postit2{
+    left: 20vw;
+    top: -20vh;
+    transition: 0.5ms;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 17vw;
+    background-color: #f5af19;
+    margin-top: 30vh;
+    margin-left: 3vw;
+    transition: 0.5s;
+    border: 3px solid;
+}
+#postit2 .postit-txt{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 7vh;
+    border: 2px solid;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+}
+
+#postit2 h3{
+    margin-top: 20vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: 0.7ms;
+}
+
+
+#postit3{
+    left: 54vw;
+    top: -20vh;
+    transition: 0.5ms;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 17vw;
+    background-color: #f5af19;
+    margin-top: 30vh;
+    margin-left: 3vw;
+    transition: 0.5s;
+    border: 3px solid;
+}
+#postit3 .postit-txt{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 7vh;
+    border: 2px solid;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+}
+
+#postit3 h3{
+    margin-top: 20vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: 0.7ms;
+}
+
+
+#postit4{
+    left: 75vw;
+    transition: 0.5ms;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    width: 17vw;
+    background-color: #f5af19;
+    margin-top: 30vh;
+    margin-left: 3vw;
+    transition: 0.5s;
+    border: 3px solid;
+}
+#postit4 .postit-txt{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 7vh;
+    border: 2px solid;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+}
+
+#postit4 h3{
+    margin-top: 20vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    transition: 0.7ms;
+}
+/*
+
+HOVERS
+
+*/
+
+#postit1:hover{
+    transition: 0.5s;
+    height: 300px;
+    width: 400px;
+}
+#postit2:hover{
+    transition: 0.5s;
+    height: 300px;
+}
+#postit3:hover{
+    transition: 0.5s;
+    height: 300px;
+}
+#postit4:hover{
+    transition: 0.5s;
+    height: 300px;
 }

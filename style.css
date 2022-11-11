@@ -182,6 +182,7 @@ Post-its
     height: 70vh;
     width: 100vw;
 }
+  
 #postit1{
     transition: 0.5ms;
     position: absolute;
@@ -446,7 +447,7 @@ Post-its
     height: 70vh;
     width: 100vw;
 }
-#postit1{
+#postit12{
     transition: 0.5ms;
     position: absolute;
     display: flex;
@@ -458,8 +459,14 @@ Post-its
     margin-left: 3vw;
     transition: 0.5s;
     border: 3px solid;
+    overflow: hidden;
 }
-#postit1 .postit-txt{
+#postit12 img{
+    margin-top: 35vh;
+    position: absolute;
+    height: 150px;
+}
+#postit12 .postit-txt{
     display: flex;
     justify-content: center;
     position: absolute;
@@ -470,14 +477,20 @@ Post-its
     width: 90%;
 }
 
-#postit1 h3{
+#postit12 h3{
     margin-top: 20vh;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
     transition: 0.7ms;
 }
-#postit2{
+#postit12:hover{
+    transition: 0.5s;
+    height: 500px;
+    width: 300px;
+    z-index: 12123;
+}
+#postit22{
     left: 20vw;
     top: -20vh;
     transition: 0.5ms;
@@ -491,28 +504,40 @@ Post-its
     margin-left: 3vw;
     transition: 0.5s;
     border: 3px solid;
+    overflow: hidden;
 }
-#postit2 .postit-txt{
+#postit22 .postit-txt{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 7vh;
+    margin-top: 7.4vh;
     border: 2px solid;
     border-left: none;
     border-right: none;
     width: 90%;
+    font-size: 1.45vh;
 }
 
-#postit2 h3{
-    margin-top: 20vh;
+#postit22 li{
+    font-size: 20px;
+    font-weight: 700;
     margin-left: 10px;
     margin-right: 10px;
-    overflow: hidden;
-    transition: 0.7ms;
+}
+#postit22 ul{
+    margin-top: 20vh;
+    position: absolute;
+    left: 15px;
+}
+#postit22:hover{
+    transition: 0.5s;
+    height: 600px;
+    width: 300px;
+    z-index: 12123;
 }
 
 
-#postit3{
+#postit32{
     left: 54vw;
     top: -20vh;
     transition: 0.5ms;
@@ -527,27 +552,40 @@ Post-its
     transition: 0.5s;
     border: 3px solid;
 }
-#postit3 .postit-txt{
+#postit32 .postit-txt{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 7vh;
+    margin-top: 5vh;
     border: 2px solid;
     border-left: none;
     border-right: none;
     width: 90%;
 }
 
-#postit3 h3{
+#postit32 h3{
     margin-top: 20vh;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
     transition: 0.7ms;
 }
+#postit32 .img1{
+    margin-left: 40px;
+    height: 100px;
+}
+#postit32 .img2{
+    margin-left: 60px;
+    height: 150px;
+}
+#postit32:hover{
+    transition: 0.5s;
+    height: 530px;
+    width: 300px;
+    z-index: 12123;
+}
 
-
-#postit4{
+#postit42{
     left: 75vw;
     transition: 0.5ms;
     position: relative;
@@ -560,8 +598,9 @@ Post-its
     margin-left: 3vw;
     transition: 0.5s;
     border: 3px solid;
+    overflow: hidden;
 }
-#postit4 .postit-txt{
+#postit42 .postit-txt{
     display: flex;
     justify-content: center;
     position: absolute;
@@ -572,33 +611,27 @@ Post-its
     width: 90%;
 }
 
-#postit4 h3{
+#postit42 h3{
     margin-top: 20vh;
     margin-left: 10px;
     margin-right: 10px;
     overflow: hidden;
     transition: 0.7ms;
 }
-/*
-
-HOVERS
-
-*/
-
-#postit1:hover{
-    transition: 0.5s;
-    height: 300px;
-    width: 400px;
+#postit42 li{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-#postit2:hover{
-    transition: 0.5s;
-    height: 300px;
+#postit42 ul{
+    margin-top: 20vh;
+    position: absolute;
+    left: 15px;
 }
-#postit3:hover{
+
+#postit42:hover{
     transition: 0.5s;
-    height: 300px;
-}
-#postit4:hover{
-    transition: 0.5s;
-    height: 300px;
+    height: 650px;
+    margin-top: 15vh;
 }

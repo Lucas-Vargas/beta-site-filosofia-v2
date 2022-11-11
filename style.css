@@ -26,7 +26,7 @@ background-size: cover;
     transition: 0.5s;
     height: 15vh;
     width: 6.6vw;
-    background-color: aqua;
+    background-color: rgb(46, 45, 45);
     position: absolute;
     right: 2vw;
     top: 0;
@@ -46,12 +46,13 @@ background-size: cover;
 .btnIr p{
     transition: 1.5s;
     overflow: hidden;
-    color: aqua;
     font-size: 40px;
     letter-spacing: -10px;
+    display: none;
 }
 
 .btnIr:hover p{
+    display: block;
     font-family: arial;
     writing-mode: vertical-lr;
     text-orientation: upright;
@@ -60,10 +61,8 @@ background-size: cover;
      red,
      orange,
      yellow,
-     green,
-     blue,
-     indigo,
-     violet);
+     green
+     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 3s linear infinite;
@@ -200,7 +199,7 @@ Post-its
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 7vh;
+    margin-top: 5vh;
     border: 2px solid;
     border-left: none;
     border-right: none;
@@ -233,7 +232,7 @@ Post-its
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 7vh;
+    margin-top: 6vh;
     border: 2px solid;
     border-left: none;
     border-right: none;
@@ -268,7 +267,7 @@ Post-its
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 7vh;
+    margin-top: 4vh;
     border: 2px solid;
     border-left: none;
     border-right: none;
@@ -324,20 +323,20 @@ HOVERS
 
 #postit1:hover{
     transition: 0.5s;
-    height: 300px;
+    height: 350px;
     width: 400px;
 }
 #postit2:hover{
     transition: 0.5s;
-    height: 300px;
+    height: 360px;
 }
 #postit3:hover{
     transition: 0.5s;
-    height: 300px;
+    height: 400px;
 }
 #postit4:hover{
     transition: 0.5s;
-    height: 300px;
+    height: 400px;
 }
 
 /*
